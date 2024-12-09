@@ -1,0 +1,47 @@
+---
+pagetitle: "Alexander Ek"
+listing:
+  - id: latest-news
+    template: news.ejs
+    contents:
+      - "news_2024.yml"
+      - "news_2023.yml"
+    sort: "date desc"
+    date-format: "DD MMM YYYY"
+    max-items: 3
+---
+\
+\
+**Alexander Ek, PhD**\
+Research Fellow\
+[Dept. of Econometrics and Business Statistics](https://www.monash.edu/business/ebs)\
+[Monash University](https://www.monash.edu/), Australia\
+\
+\
+
+## Summary
+
+My name is Alexander Ek and I am passionate about data-driven decision-making under uncertainty.
+My current position mainly focuses on combining optimisation and data science for statistical post-election audits and other work surrounding elections and election integrity.
+
+Research interests include:
+
+ * Interdisciplinary research with real-world impact
+ * Constraint-based optimisation modelling.
+ * Combinatorial/discrete optimisation, and automated planning and scheduling.
+ * Operations research/analytics, applied mathematics, and decision science.
+ * Online/dynamic/real-time optimisation and robust/stochastic optimization.
+ * Statistics, data science, and machine learning.
+ * Constraint programming, and other solving technology.
+ * Logistics, supply chain management, energy systems, vehicle routing, rostering, and scheduling.
+ * Economics, fair division, fair resource allocation, and social choice theory.
+ * Game theory, and bargaining theory
+ * Election auditing, and election security
+ * Mixed-integer-continous-discrete optimisation, including non-convex optimisation.
+
+## Latest News
+
+:::{#latest-news}
+:::
+
+[See All News](/news.qmd)

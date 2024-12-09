@@ -1,0 +1,40 @@
+```{=html}
+<% for (const entry of items) { %>
+  <% if (entry.date_start) { %>
+    <% if (entry.date_end) { %>
+      <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+        <div style="flex: 1;"><b><%= entry.title %></b> 
+        <% if (entry.institution) { %>
+          &nbsp; <i><%= entry.institution %></i>
+        <% } %>
+        </div>
+        <div><%= entry.date_start %>&ndash;<%= entry.date_end %></div>
+      </div>
+      <% if (entry.subitems) { %>
+        <ul>
+        <% for (const subitem of entry.subitems) { %>
+          <li><%= subitem.text %></li>
+        <% } %>
+        </ul>
+      <% } %>
+    <% } else { %>
+      <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+        <div style="flex: 1;"><b><%= entry.title %></b> &nbsp; <i><%= entry.institution %></i></div>
+        <div><%= entry.date_start %>&ndash;<i>present</i></div>
+      </div>
+    <% } %>
+  <% } else { %>
+      <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+        <div style="flex: 1;"><b><%= entry.title %></b> &nbsp; <i><%= entry.institution %></i></div>
+        <div><%= entry.date %></div>
+      </div>
+  <% } %>
+  <% if (entry.description) { %>
+    <small><%= entry.description %></small></br>
+  <% } %>
+  <% if (entry.description2) { %>
+    <small><%= entry.description2 %></small></br>
+  <% } %>
+  </br>
+<% } %>
+```

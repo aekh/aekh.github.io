@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: docs
+  preview: 
+    port: 4200
+
+website:
+  title: "Alexander Ek"
+  navbar:
+    left:
+      - href: about.qmd
+        text: About
+      - href: news.qmd
+        text: News
+      - href: publications.qmd
+        text: Publications
+  sidebar:
+    header: |
+      ![](/img/me.png)
+    alignment: right
+    contents:
+      - href: https://www.linkedin.com/in/alexanderek/
+        text: "LinkedIn"
+      - href: https://www.researchgate.net/profile/Alexander-Ek
+        text: "Reserach Gate"
+      - href: https://scholar.google.com/citations?hl=en&user=qCgM_1wAAAAJ
+        text: "Google Scholar"
+      - href: https://www.semanticscholar.org/author/Alexander-Ek/143875013
+        text: "Semantic Scholar"
+      - href: https://dblp.uni-trier.de/pid/266/5462.html
+        text: "dblp"
+      - href: https://orcid.org/0000-0002-8744-4805
+        text: "ORCID"
+  
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    toc: true
+    code-copy: true
+
+editor: visual
+
+extensions:
+  - schochastics/academicons

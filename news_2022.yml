@@ -1,0 +1,19 @@
+- title: "It's Official!"
+  description: "Monash University has conferred my doctoral degree and awarded me a PhD."
+  href: "https://www.monash.edu/"
+  date: 2022-11-23
+
+- title: "Conference: FLoC'22 and CP'22"
+  date: 2022-08-05
+  href: "https://www.floc2022.org/"
+  description: "I presented a talk for our paper titled \"Explaining Propagation for Gini and Spread with Variable Mean\" at the 28th Int'l Conf. on Principles and Practice of Constraint Programming (CP'22), which took place 31 July - 5 August 2022 as part of the Federated Logic Conference 2022 in Haifa, Israel. For travel cost, I was awarded the Quality Conference Travel Fund Grant by Monash University and the Doctoral Program Travel Grant by the Association for Constraint Programming."
+
+- title: "New Position"
+  description: "I started a Postdoctoral Research Fellow position in the School of Mathematics and Statistics at The University of Melbourne, Australia. My postdoc is hosted by Damjan Vukcevic. I will focus on election integrity and auditing."
+  href: "https://ms.unimelb.edu.au/"
+  date: 2023-07-18
+
+- title: "Paper Accepted"
+  date: 2022-04-29
+  href: "https://cp2022.a4cp.org/"
+  description: "Our paper titled \"Explaining Propagation for Gini and Spread with Variable Mean\" was accepted for publication and to be presented at the 28th Int'l Conf. on Principles and Practice of Constraint Programming (CP'22). It will take place 31 July - 5 August 2022 as part of the Federated Logic Conference 2022 in Haifa, Israel."

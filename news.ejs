@@ -1,0 +1,12 @@
+```{=html}
+<% for (const item of items) { %>
+  <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+    <div style="flex: 1;"><b><strong><%= item.title %></strong></b></div>
+    <div><strong><%= item.date %></strong></div>
+  </div>
+  <p><%= item.description %></p>
+  <% if (item.href) { %> 
+    <p>Link: <a href="<%= item.href %>"><%= item.href %></a></p>
+  <% } %>
+<% } %>
+```

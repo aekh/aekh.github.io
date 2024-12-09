@@ -1,0 +1,36 @@
+---
+pagetitle: "Alexander Ek - News"
+listing:
+  - id: news2024
+    template: news.ejs
+    contents:
+      - "news_2024.yml"
+    date-format: "DD MMM YYYY"
+  - id: news2023
+    template: news.ejs
+    contents:
+      - "news_2023.yml"
+    date-format: "DD MMM YYYY"
+  - id: news2022
+    template: news.ejs
+    contents:
+      - "news_2022.yml"
+    date-format: "DD MMM YYYY"
+---
+
+# News
+
+## 2024
+
+:::{#news2024}
+:::
+
+## 2023
+
+:::{#news2023}
+:::
+
+## 2022
+
+:::{#news2022}
+:::

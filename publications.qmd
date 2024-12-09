@@ -1,0 +1,273 @@
+---
+pagetitle: "Alexander Ek - News"
+---
+
+Updated 10 Dec 2024
+
+
+<style>
+.toggle-link {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+.hidden-code {
+  display: none;
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.hidden-code.visible {
+  display: block;
+}
+
+.copy-code-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 3px;
+  padding: 3px 8px;
+  cursor: pointer;
+  font-size: 0.8em;
+  display: none;
+  transition: background-color 0.3s ease;
+}
+
+.hidden-code.visible .copy-code-btn {
+  display: block;
+}
+
+.copy-code-btn:hover {
+  background-color: #d0d0d0;
+}
+
+.copy-code-btn.copied {
+  background-color: #90ee90;
+}
+</style>
+
+<script>
+function toggleCodeBlock(linkId, codeBlockId) {
+  const codeBlock = document.getElementById(codeBlockId);
+  codeBlock.classList.toggle('visible');
+}
+
+function copyCodeBlock(btnElement, codeBlockId) {
+  // Select the <code> element inside the pre block
+  const codeElement = document.querySelector(`#${codeBlockId} code`);
+  
+  if (codeElement) {
+    // Extract the text content
+    const codeText = codeElement.textContent;
+    
+    // Copy to clipboard
+    navigator.clipboard.writeText(codeText).then(() => {
+      // Change button text and style
+      btnElement.textContent = 'Copied!';
+      btnElement.classList.add('copied');
+      
+      // Revert back after 2 seconds
+      setTimeout(() => {
+        btnElement.textContent = 'Copy';
+        btnElement.classList.remove('copied');
+      }, 2000);
+    }).catch(err => {
+      console.error('Failed to copy: ', err);
+    });
+  }
+}
+</script>
+### Peer-Reviewed Conference Publications
+
+*In computer science, the most important publication venues are generally conferences.*
+
+::: {.hanging-indent .justify}
+**Alexander Ek**, Philip B. Stark, Peter J. Stuckey, Damjan Vukcevic. "Efficient Weighting Schemes for Auditing Instant-Runoff Voting Elections". In: *Financial Cryptography and Data Security. FC 2024 Int'l Workshops (Voting'24)*. LNCS 14746. Springer, 2025, pp. 18--32. DOI: [10.1007/978-3-031-69231-4_2](https://doi.org/10.1007/978-3-031-69231-4_2). 
+<span class="toggle-link" onclick="toggleCodeBlock('link-ek2025efficient', 'code-block-ek2025efficient')">bib</span>
+:::
+<div class="hidden-code" id="code-block-ek2025efficient"><button class="copy-code-btn" onclick="copyCodeBlock(this, 'code-block-ek2025efficient')">Copy</button><pre><code>@InProceedings{ek2025efficient,
+    author = "Ek, Alexander and Stark, Philip B. and Stuckey, Peter J. and Vukcevic, Damjan",
+    title = "Efficient Weighting Schemes for Auditing Instant-Runoff Voting Elections",
+    booktitle = "Financial Cryptography and Data Security. FC 2024 Int'l Workshops (Voting'24)",
+    series = "LNCS 14746",
+    year = "2025",
+    publisher = "Springer",
+    pages = "18--32",
+    doi = "10.1007/978-3-031-69231-4_2"
+}
+</code></pre></div>
+
+::: {.hanging-indent .justify}
+**Alexander Ek**, Michelle Blom, Philip B. Stark, Peter J. Stuckey, Damjan Vukcevic. "Improving the Computational Efficiency of Adaptive Audits of IRV Elections". In: *Electronic Voting (E-Vote-ID'24)*. LNCS 15014. Springer, 2024, pp. 37--53. DOI: [10.1007/978-3-031-72244-8_3](https://doi.org/10.1007/978-3-031-72244-8_3). 
+<span class="toggle-link" onclick="toggleCodeBlock('link-ek2024improving', 'code-block-ek2024improving')">bib</span>
+:::
+<div class="hidden-code" id="code-block-ek2024improving"><button class="copy-code-btn" onclick="copyCodeBlock(this, 'code-block-ek2024improving')">Copy</button><pre><code>@InProceedings{ek2024improving,
+    author = "Ek, Alexander and Blom, Michelle and Stark, Philip B. and Stuckey, Peter J. and Vukcevic, Damjan",
+    title = "Improving the Computational Efficiency of Adaptive Audits of {IRV} Elections",
+    booktitle = "Electronic Voting (E-Vote-ID'24)",
+    series = "LNCS 15014",
+    year = "2024",
+    publisher = "Springer",
+    pages = "37--53",
+    doi = "10.1007/978-3-031-72244-8_3"
+}
+</code></pre></div>
+
+::: {.hanging-indent .justify}
+**Alexander Ek**, Philip B. Stark, Peter J. Stuckey, Damjan Vukcevic. "Adaptively Weighted Audits of Instant-Runoff Voting Elections: AWAIRE". In: *Electronic Voting (E-Vote-ID'23)*. LNCS 14230. Springer, 2023, pp. 35--51. DOI: [10.1007/978-3-031-43756-4_3](https://doi.org/10.1007/978-3-031-43756-4_3). 
+<span class="toggle-link" onclick="toggleCodeBlock('link-ek2023adaptively', 'code-block-ek2023adaptively')">bib</span>
+:::
+<div class="hidden-code" id="code-block-ek2023adaptively"><button class="copy-code-btn" onclick="copyCodeBlock(this, 'code-block-ek2023adaptively')">Copy</button><pre><code>@InProceedings{ek2023adaptively,
+    author = "Ek, Alexander and Stark, Philip B. and Stuckey, Peter J. and Vukcevic, Damjan",
+    title = "Adaptively Weighted Audits of Instant-Runoff Voting Elections: {AWAIRE}",
+    booktitle = "Electronic Voting (E-Vote-ID'23)",
+    series = "LNCS 14230",
+    year = "2023",
+    publisher = "Springer",
+    pages = "35--51",
+    doi = "10.1007/978-3-031-43756-4_3"
+}
+</code></pre></div>
+
+::: {.hanging-indent .justify}
+**Alexander Ek**, Andreas Schutt, Peter J. Stuckey, Guido Tack. "Explaining Propagation for Gini and Spread with Variable Mean". In: *Principles and Practice of Constraint Programming (CP'22)*. LIPIcs 235. Schloss Dagstuhl, 2022, pp. 21:1--21:16. DOI: [10.4230/LIPIcs.CP.2022.21](https://doi.org/10.4230/LIPIcs.CP.2022.21). 
+<span class="toggle-link" onclick="toggleCodeBlock('link-ek2022explaining', 'code-block-ek2022explaining')">bib</span>
+:::
+<div class="hidden-code" id="code-block-ek2022explaining"><button class="copy-code-btn" onclick="copyCodeBlock(this, 'code-block-ek2022explaining')">Copy</button><pre><code>@InProceedings{ek2022explaining,
+    author = "Ek, Alexander and Schutt, Andreas and Stuckey, Peter J. and Tack, Guido",
+    title = "Explaining Propagation for {Gini} and Spread with Variable Mean",
+    booktitle = "Principles and Practice of Constraint Programming (CP'22)",
+    year = "2022",
+    series = "LIPIcs 235",
+    publisher = "Schloss Dagstuhl",
+    pages = "pp. 21:1--21:16",
+    doi = "10.4230/LIPIcs.CP.2022.21"
+}
+</code></pre></div>
+
+::: {.hanging-indent .justify}
+**Alexander Ek**, Maria Garcia de la Banda, Andreas Schutt, Peter J. Stuckey, Guido Tack. "Aggregation and Garbage Collection for Online Optimization". In: *Principles and Practice of Constraint Programming (CP'20)*. LNCS 12333. Springer, 2020, pp. 231--247. DOI: [10.1007/978-3-030-58475-7_14](https://doi.org/10.1007/978-3-030-58475-7_14). 
+<span class="toggle-link" onclick="toggleCodeBlock('link-ek2020aggregation', 'code-block-ek2020aggregation')">bib</span>
+:::
+<div class="hidden-code" id="code-block-ek2020aggregation"><button class="copy-code-btn" onclick="copyCodeBlock(this, 'code-block-ek2020aggregation')">Copy</button><pre><code>@InProceedings{ek2020aggregation,
+    author = "Ek, Alexander and Garcia de la Banda, Maria and Schutt, Andreas and Stuckey, Peter J. and Tack, Guido",
+    title = "Aggregation and Garbage Collection for Online Optimization",
+    booktitle = "Principles and Practice of Constraint Programming (CP'20)",
+    year = "2020",
+    publisher = "Springer",
+    series = "LNCS 12333",
+    pages = "231--247",
+    doi = "10.1007/978-3-030-58475-7_14"
+}
+</code></pre></div>
+
+::: {.hanging-indent .justify}
+**Alexander Ek**, Maria Garcia de la Banda, Andreas Schutt, Peter J. Stuckey, Guido Tack. "Modelling and Solving Online Optimisation Problems". In: *34th AAAI Conf. on Artificial Intelligence (AAAI'20)*. AAAI Press, 2020, pp. 1477--1485. An earlier version appeared in the 18th Workshop on Constraint Modelling and Reformulation (ModRef’19). DOI: [10.1609/aaai.v34i02.5506](https://doi.org/10.1609/aaai.v34i02.5506). 
+<span class="toggle-link" onclick="toggleCodeBlock('link-ek2020modelling', 'code-block-ek2020modelling')">bib</span>
+:::
+<div class="hidden-code" id="code-block-ek2020modelling"><button class="copy-code-btn" onclick="copyCodeBlock(this, 'code-block-ek2020modelling')">Copy</button><pre><code>@InProceedings{ek2020modelling,
+    author = "Ek, Alexander and Garcia de la Banda, Maria and Schutt, Andreas and Stuckey, Peter J. and Tack, Guido",
+    title = "Modelling and Solving Online Optimisation Problems",
+    booktitle = "34th AAAI Conf. on Artificial Intelligence (AAAI'20)",
+    pages = "1477--1485",
+    publisher = "{AAAI} Press",
+    year = "2020",
+    doi = "10.1609/aaai.v34i02.5506",
+    note = "An earlier version appeared in the 18th Workshop on Constraint Modelling and Reformulation (ModRef’19)"
+}
+</code></pre></div>
+
+\ 
+
+### Theses
+
+::: {.hanging-indent .justify}
+**Alexander Ek**. "High-Level Modelling and Solving for Online, Real-Time, and Multiagent Combinatorial Optimisation". *PhD Thesis*. Faculty of IT, Monash University, 2022, 244 pp.. DOI: [https://doi.org/10.26180/21588144.v1](https://doi.org/https://doi.org/10.26180/21588144.v1). 
+<span class="toggle-link" onclick="toggleCodeBlock('link-ek2022high-level', 'code-block-ek2022high-level')">bib</span>
+:::
+<div class="hidden-code" id="code-block-ek2022high-level"><button class="copy-code-btn" onclick="copyCodeBlock(this, 'code-block-ek2022high-level')">Copy</button><pre><code>@Thesis{ek2022high-level,
+    author = "Ek, Alexander",
+    title = "High-Level Modelling and Solving for Online, Real-Time, and Multiagent Combinatorial Optimisation",
+    school = "Faculty of IT, Monash University",
+    year = "2022",
+    type = "PhD Thesis",
+    doi = "https://doi.org/10.26180/21588144.v1",
+    pages = "244 pp."
+}
+</code></pre></div>
+
+::: {.hanging-indent .justify}
+**Alexander Ek**. "Automatic Predicate Encapsulation of Potentially Profitably Presolvable Submodels in MiniZinc". *MSc Thesis*. Department of IT, Uppsala University, 2018, 80 pp.. 
+<span class="toggle-link" onclick="toggleCodeBlock('link-ek2018automatic', 'code-block-ek2018automatic')">bib</span>
+:::
+<div class="hidden-code" id="code-block-ek2018automatic"><button class="copy-code-btn" onclick="copyCodeBlock(this, 'code-block-ek2018automatic')">Copy</button><pre><code>@Thesis{ek2018automatic,
+    author = "Ek, Alexander",
+    title = "Automatic Predicate Encapsulation of Potentially Profitably Presolvable Submodels in {MiniZinc}",
+    school = "Department of IT, Uppsala University",
+    year = "2018",
+    type = "MSc Thesis",
+    pages = "80 pp."
+}
+</code></pre></div>
+
+::: {.hanging-indent .justify}
+**Alexander Ek**. "Explanation of Counterexamples in the Context of Formal Verification". *BSc Thesis*. Department of IT, Uppsala University, 2016, 40 pp.. 
+<span class="toggle-link" onclick="toggleCodeBlock('link-ek2016explanation', 'code-block-ek2016explanation')">bib</span>
+:::
+<div class="hidden-code" id="code-block-ek2016explanation"><button class="copy-code-btn" onclick="copyCodeBlock(this, 'code-block-ek2016explanation')">Copy</button><pre><code>@Thesis{ek2016explanation,
+    author = "Ek, Alexander",
+    title = "Explanation of Counterexamples in the Context of Formal Verification",
+    school = "Department of IT, Uppsala University",
+    year = "2016",
+    type = "BSc Thesis",
+    pages = "40 pp."
+}
+</code></pre></div>
+
+\ 
+
+### Workshops And Symposia
+
+*Papers later published in conferences or journals are listed with the publication entry above.*
+
+::: {.hanging-indent .justify}
+Andrew Conway, Michelle Blom, **Alexander Ek**, Peter J. Stuckey, Vanessa J. Teague, Damjan Vukcevic. "Idiosyncratic properties of Australian STV election counting". 2024. Presented at the 10th Int'l Joint Conf. on Electronic Voting (E-Vote-ID'24). DOI: [10.48550/arXiv.2409.11627](https://doi.org/10.48550/arXiv.2409.11627). 
+<span class="toggle-link" onclick="toggleCodeBlock('link-conway2024idiosyncratic', 'code-block-conway2024idiosyncratic')">bib</span>
+:::
+<div class="hidden-code" id="code-block-conway2024idiosyncratic"><button class="copy-code-btn" onclick="copyCodeBlock(this, 'code-block-conway2024idiosyncratic')">Copy</button><pre><code>@Unpublished{conway2024idiosyncratic,
+    author = "Conway, Andrew and Blom, Michelle and Ek, Alexander and Stuckey, Peter J. and Teague, Vanessa J. and Vukcevic, Damjan",
+    title = "Idiosyncratic properties of {Australian} {STV} election counting",
+    year = "2024",
+    note = "Presented at the 10th Int'l Joint Conf. on Electronic Voting (E-Vote-ID'24)",
+    howpublished = "Available on arXiv",
+    doi = "10.48550/arXiv.2409.11627"
+}
+</code></pre></div>
+
+\ 
+
+### Science Journalism
+
+::: {.hanging-indent .justify}
+Michelle Blom, **Alexander Ek**, Peter J. Stuckey, Vanessa J. Teague, Damjan Vukcevic. "The Australian research helping to verify US election outcomes". Pursuit, 2024. Accessed: 7 Dec 2024. [Link](https://pursuit.unimelb.edu.au/articles/the-australian-research-helping-to-verify-us-election-outcomes). 
+<span class="toggle-link" onclick="toggleCodeBlock('link-blom2024australian', 'code-block-blom2024australian')">bib</span>
+:::
+<div class="hidden-code" id="code-block-blom2024australian"><button class="copy-code-btn" onclick="copyCodeBlock(this, 'code-block-blom2024australian')">Copy</button><pre><code>@Online{blom2024australian,
+    author = "Blom, Michelle and Ek, Alexander and Stuckey, Peter J. and Teague, Vanessa J. and Vukcevic, Damjan",
+    title = "The Australian research helping to verify {US} election outcomes",
+    year = "2024",
+    month = "June",
+    day = "17",
+    url = "https://pursuit.unimelb.edu.au/articles/the-australian-research-helping-to-verify-us-election-outcomes",
+    note = "Accessed: 7 Dec 2024",
+    publisher = "Pursuit"
+}
+</code></pre></div>
+
+\ 
