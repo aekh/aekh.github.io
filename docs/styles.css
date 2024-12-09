@@ -1,0 +1,7 @@
+/* css styles */
+.justify {
+  text-align: justify !important
+}
+.hanging-indent {
+  text-indent: -1.5em;
+}
