@@ -2,7 +2,7 @@
 pagetitle: "Alexander Ek - News"
 ---
 
-Updated 10 Dec 2024
+Updated 06 Mar 2025
 
 
 <style>
@@ -86,6 +86,36 @@ function copyCodeBlock(btnElement, codeBlockId) {
 ### Peer-Reviewed Conference Publications
 
 *In computer science, the most important publication venues are generally conferences.*
+
+::: {.hanging-indent .justify}
+**Alexander Ek**, Michelle Blom, Philip B. Stark, Peter J. Stuckey, Vanessa J. Teague, Damjan Vukcevic. "Doing More With Less: Mismatch-Based Risk-Limiting Audits". In: *Financial Cryptography and Data Security. FC 2025 Int'l Workshops (Voting'25)*. LNCS. Springer, 2025. Forthcoming. 
+<span class="toggle-link" onclick="toggleCodeBlock('link-ek2025doing', 'code-block-ek2025doing')">bib</span>
+:::
+<div class="hidden-code" id="code-block-ek2025doing"><button class="copy-code-btn" onclick="copyCodeBlock(this, 'code-block-ek2025doing')">Copy</button><pre><code>@InProceedings{ek2025doing,
+    author = "Ek, Alexander and Blom, Michelle and Stark, Philip B. and Stuckey, Peter J. and Teague, Vanessa J. and Vukcevic, Damjan",
+    title = "Doing More With Less: Mismatch-Based Risk-Limiting Audits",
+    booktitle = "Financial Cryptography and Data Security. FC 2025 Int'l Workshops (Voting'25)",
+    series = "LNCS",
+    year = "2025",
+    publisher = "Springer",
+    note = "Forthcoming"
+}
+</code></pre></div>
+
+::: {.hanging-indent .justify}
+Blom Michelle, **Alexander Ek**, Philip B. Stark, Peter J. Stuckey, Vanessa J. Teague, Damjan Vukcevic. "3+ Seat Risk-Limiting Audits for Single Transferable Vote Elections". In: *Financial Cryptography and Data Security. FC 2025 Int'l Workshops (Voting'25)*. LNCS. Springer, 2025. Forthcoming. 
+<span class="toggle-link" onclick="toggleCodeBlock('link-blom2025threeplus', 'code-block-blom2025threeplus')">bib</span>
+:::
+<div class="hidden-code" id="code-block-blom2025threeplus"><button class="copy-code-btn" onclick="copyCodeBlock(this, 'code-block-blom2025threeplus')">Copy</button><pre><code>@InProceedings{blom2025threeplus,
+    author = "Blom, Michelle and Ek, Alexander and Stark, Philip B. and Stuckey, Peter J. and Teague, Vanessa J. and Vukcevic, Damjan",
+    title = "3+ Seat Risk-Limiting Audits for Single Transferable Vote Elections",
+    booktitle = "Financial Cryptography and Data Security. FC 2025 Int'l Workshops (Voting'25)",
+    series = "LNCS",
+    year = "2025",
+    publisher = "Springer",
+    note = "Forthcoming"
+}
+</code></pre></div>
 
 ::: {.hanging-indent .justify}
 **Alexander Ek**, Philip B. Stark, Peter J. Stuckey, Damjan Vukcevic. "Efficient Weighting Schemes for Auditing Instant-Runoff Voting Elections". In: *Financial Cryptography and Data Security. FC 2024 Int'l Workshops (Voting'24)*. LNCS 14746. Springer, 2025, pp. 18--32. DOI: [10.1007/978-3-031-69231-4_2](https://doi.org/10.1007/978-3-031-69231-4_2). 

@@ -4,6 +4,7 @@ listing:
   - id: latest-news
     template: news.ejs
     contents:
+      - "news_2025.yml"
       - "news_2024.yml"
       - "news_2023.yml"
     sort: "date desc"
@@ -21,7 +22,7 @@ Research Fellow\
 
 ## Summary
 
-My name is Alexander Ek and I am passionate about data-driven decision-making under uncertainty.
+My name is Alexander Ek and I am passionate about data- and logic-driven decision-making under uncertainty.
 My current position mainly focuses on combining optimisation and data science for statistical post-election audits and other work surrounding elections and election integrity.
 
 Research interests include:

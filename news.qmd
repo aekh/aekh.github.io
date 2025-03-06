@@ -1,6 +1,11 @@
 ---
 pagetitle: "Alexander Ek - News"
 listing:
+  - id: news2025
+    template: news.ejs
+    contents:
+      - "news_2025.yml"
+    date-format: "DD MMM YYYY"
   - id: news2024
     template: news.ejs
     contents:
@@ -19,6 +24,11 @@ listing:
 ---
 
 # News
+
+## 2025
+
+:::{#news2025}
+:::
 
 ## 2024
 

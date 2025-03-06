@@ -22,7 +22,7 @@ listing:
 
 Alexander Ek is a Research Fellow in the [Department of Econometrics and Business Statistics](https://www.monash.edu/business/econometrics-and-business-statistics) at [Monash University](https://www.monash.edu/), and an Associate Investigator at [OPTIMA](https://optima.org.au/).
 In 2022, He received his PhD degree in computer science from Monash University.
-Most of his research centers around combinatorial optimisation, data-driven decision-making under uncertainty, election integrity and auditing, and combining statistics and optimisation.
+Most of his research centres around combinatorial optimisation, data- and logic-driven decision-making under uncertainty, election integrity and auditing, and combining statistics and optimisation.
 
 ### Address
 

@@ -3,11 +3,6 @@
   href: "https://e-vote-id.org/"
   description: "I presented a talk for our paper titled Improving the Computational Efficiency of Adaptive Audits of IRV Elections at the 9th Int'l Joint Conf. on Electronic Voting (E-Vote-ID'24), which took place 2 - 4 October 2024 in beautiful Tarragona, Spain."
   
-- title: "Paper Accepted"
-  date: 2024-06-24
-  href: "https://e-vote-id.org/"
-  description: "Our paper titled \"Improving the Computational Efficiency of Adaptive Audits of IRV Elections\" was accepted for publication and to be presented at the 9th Int'l Joint Conf. on Electronic Voting (E-Vote-ID'24). It will place 2 - 4 October 2024 in Tarragona, Spain."
-
 - title: "Talk"
   description: "I presented a talk titled \"Post-Election Audits using Machine Learning and Combinatorial Optimisation\" in Optimisation Seminar Series at Uppsala University, Sweden."
   date: 2024-08-22
@@ -17,13 +12,18 @@
   description: "I presented a talk to a public audience titled \"Election Integrity: Using AI to Audit Election Outcomes\" at the Melbourne Machine Learning and AI Meetup, Australia."
   date: 2024-07-16
   href: "https://mlai.melbourne/"
+
+- title: "Paper Accepted"
+  date: 2024-06-24
+  href: "https://e-vote-id.org/"
+  description: "Our paper titled \"Improving the Computational Efficiency of Adaptive Audits of IRV Elections\" was accepted for publication and to be presented at the 9th Int'l Joint Conf. on Electronic Voting (E-Vote-ID'24). It will place 2 - 4 October 2024 in Tarragona, Spain."
   
 - title: "Conference: Voting'24"
-  date: 2024-10-08
+  date: 2024-03-08
   href: "https://www.ifca.ai/fc24/voting/"
-  description: "I presented a talk for our paper titled \"Efficient Weighting Schemes for Auditing Instant-Runoff Voting Elections\" at the 9th Workshop on Advances in Secure Electronic Voting (Voting'23) of the 28th Int'l Conf. on Financial Cryptography and Data Security, which took place 8 March 2024 in the sunny caribbean city Willemstad, Curaçao."
+  description: "I presented a talk for our paper titled \"Efficient Weighting Schemes for Auditing Instant-Runoff Voting Elections\" at the 9th Workshop on Advances in Secure Electronic Voting (Voting'24) of the 28th Int'l Conf. on Financial Cryptography and Data Security, which took place 8 March 2024 in the sunny caribbean city Willemstad, Curaçao."
 
 - title: "Paper Accepted"
   date: 2024-01-16
   href: "https://www.ifca.ai/fc24/voting/"
-  description: "Our paper titled \"Efficient Weighting Schemes for Auditing Instant-Runoff Voting Elections\" was accepted for publication and to be presented at the 9th Workshop on Advances in Secure Electronic Voting (Voting'23) of the 28th Int'l Conf. on Financial Cryptography and Data Security. It will place 8 March 2024 in Willemstad, Curaçao."
+  description: "Our paper titled \"Efficient Weighting Schemes for Auditing Instant-Runoff Voting Elections\" was accepted for publication and to be presented at the 9th Workshop on Advances in Secure Electronic Voting (Voting'24) of the 28th Int'l Conf. on Financial Cryptography and Data Security. It will place 8 March 2024 in Willemstad, Curaçao."
