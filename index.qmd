@@ -11,38 +11,42 @@ listing:
     date-format: "DD MMM YYYY"
     max-items: 3
 ---
+
 \
 \
 **Alexander Ek, PhD**\
-Research Fellow\
-[Dept. of Econometrics and Business Statistics](https://www.monash.edu/business/ebs)\
-[Monash University](https://www.monash.edu/), Australia\
+Postdoctoral Researcher\
+The [Declarative Languages and Artificial Intelligence](https://dtai.cs.kuleuven.be/) Section\
+[Department of Computer Science](https://wms.cs.kuleuven.be/cs/english)\
+[KU Leuven](https://www.kuleuven.be/english/kuleuven/), Belgium\
 \
 \
 
 ## Summary
 
-My name is Alexander Ek and I am passionate about data- and logic-driven decision-making under uncertainty.
-My current position mainly focuses on combining optimisation and data science for statistical post-election audits and other work surrounding elections and election integrity.
+My name is Alexander Ek and I am passionate about data- and logic-driven decision-making (under uncertainty) and trustworthy software. My current position mainly focuses on proof-logging and certifying model expansions in combinatorial optimisation. I am currently funded via the [CertiFOX](https://www.bartbogaerts.eu/projects/CertiFOX/) project and supervised by [Bart Bogaerts](https://www.bartbogaerts.eu/index.php).
+
+My other projects includes combining data science and optimisation for election integrity (including statistical post-election audits), modeling and solving online optimisation problems, and multi-stakeholder optimisation with fairness considerations.
 
 Research interests include:
 
- * Interdisciplinary research with real-world impact
- * Constraint-based optimisation modelling.
- * Combinatorial/discrete optimisation, and automated planning and scheduling.
- * Operations research/analytics, applied mathematics, and decision science.
- * Online/dynamic/real-time optimisation and robust/stochastic optimization.
- * Statistics, data science, and machine learning.
- * Constraint programming, and other solving technology.
- * Logistics, supply chain management, energy systems, vehicle routing, rostering, and scheduling.
- * Economics, fair division, fair resource allocation, and social choice theory.
- * Game theory, and bargaining theory
- * Election auditing, and election security
- * Mixed-integer-continous-discrete optimisation, including non-convex optimisation.
+-   Interdisciplinary research with real-world impact
+-   Constraint-based optimisation modelling.
+-   Combinatorial/discrete optimisation, and automated planning and scheduling.
+-   Proof-logging, formal verification, and certifying algorithms.
+-   Operations research/analytics, applied mathematics, and decision science.
+-   Online/dynamic/real-time optimisation and robust/stochastic optimization.
+-   Statistics, data science, and machine learning.
+-   Constraint programming, and other solving technology.
+-   Logistics, supply chain management, energy systems, vehicle routing, rostering, and scheduling.
+-   Economics, fair division, fair resource allocation, and social choice theory.
+-   Game theory, and bargaining theory
+-   Election auditing, and election security
+-   Mixed-integer-continous-discrete optimisation, including non-convex optimisation.
 
 ## Latest News
 
-:::{#latest-news}
+::: {#latest-news}
 :::
 
 [See All News](/news.qmd)

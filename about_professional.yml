@@ -1,13 +1,20 @@
-- title: Postdoctoral Research Fellow
+- title: Postdoctoral Researcher
+  date_start: "Jul 2025"
+  institution: KU Leuven, Belgium
+  description: "<strong>Hosted by</strong>: Prof. Bart Bogaerts."
+
+- title: Postdoctoral Researcher
   date_start: "Mar 2023"
+  date_end: "Jul 2025"
   institution: Monash University, Australia
   description: "<strong>Hosted by</strong>: Assoc. Prof. Damjan Vukcevic."
   
 - title: Associate Investigator
   date_start: "Jul 2022"
+  date_end: "Jul 2025"
   institution: OPTIMA ARC, Australia
   
-- title: Postdoctoral Research Fellow
+- title: Postdoctoral Researcher
   date_start: "Jul 2022"
   date_end: "Mar 2023"
   institution: The University of Melbourne, Australia
